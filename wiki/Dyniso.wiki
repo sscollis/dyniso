@@ -41,3 +41,5 @@ The code will output a number of files including:
 {{{
    sudo port select --set gcc none
 }}}
+
+[http://dyniso.googlecode.com/svn/trunk/docs/homo-iso-mag.png]
