@@ -30,7 +30,7 @@ The code will output a number of files including:
  # Plot3d visualization files in out.{xyz,q}
 
 == Notes ==
- # The Plot3d files are in fortran unformated (not C-binary)
+ # The Plot3d files are in Fortran unformatted (not C-binary)
  # On MacOS-X (Darwin), you need to install a version of gfortran.
    I use the version from [http://www.macports.org MacPorts] which you can select using
 {{{
@@ -45,4 +45,4 @@ The code will output a number of files including:
 
 [http://dyniso.googlecode.com/svn/trunk/docs/homo-iso-mag.png]
 
-Contours of velocity magnitude from Dyniso on a 384^3^ mesh (with dealiasing this is really a 576^3^ mesh), computed using 8 threads on an Apple MacBook Pro with Intel Corei7 processors.  Visualized using the Plot3d reader in [http://www.paraview.org/ Paraview].
+Contours of velocity magnitude from Dyniso on a 384^3^ mesh (with dealiasing this is really a 576^3^ mesh), computed using 8 threads on an Apple `MacBook` Pro with Intel Corei7 processors.  Visualized using the Plot3d reader in [http://www.paraview.org/ Paraview].
