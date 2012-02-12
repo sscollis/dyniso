@@ -32,13 +32,14 @@ The code will output a number of files including:
 == Notes ==
  # The Plot3d files are in Fortran unformatted (not C-binary)
  # On MacOS-X (Darwin), you need to install a version of gfortran.
-   I use the version from [http://www.macports.org MacPorts] which you can select using
+   I use the version from [http://www.macports.org MacPorts] 
+   which you can select using
 {{{
-   sudo port select --set gcc gcc46
+sudo port select --set gcc gcc46
 }}}
-   and you return to the original Apple compilers using
+and you return to the original Apple compilers using
 {{{
-   sudo port select --set gcc none
+sudo port select --set gcc none
 }}}
 
 == Examples ==
