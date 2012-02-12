@@ -35,7 +35,7 @@ The code will output a number of files including:
 {{{
 sudo port select --set gcc gcc46
 }}}
-and you return to the original Apple compilers using
+  and you return to the original Apple compilers using
 {{{
 sudo port select --set gcc none
 }}}
