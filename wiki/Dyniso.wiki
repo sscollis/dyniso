@@ -15,6 +15,9 @@ simply do:
 cd src
 make opt
 }}}
+
+Note:  FFTW v2 is *not* required to run Dyniso as several system-supplied FFT libraries are also supported.
+
 == Running Dyniso ==
 {{{
 ./dyniso.exe < test.inp
