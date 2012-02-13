@@ -213,13 +213,13 @@ subroutine setup
         if (LES.eq.2) open(12,file='smag.dat',position='append',err=100)
         open(20,file='stat1.dat',position='append',err=100)
         open(21,file='stat2.dat',position='append',err=100)
-        open(22,file='rogollo.dat',position='append',err=100)
+        open(22,file='screen.dat',position='append',err=100)
       else
         open(11,file='cpu.dat',err=100)
         if (LES.eq.2) open(12,file='smag.dat',err=100)
         open(20,file='stat1.dat',err=100)
         open(21,file='stat2.dat',err=100)
-        open(22,file='rogollo.dat',err=100)
+        open(22,file='screen.dat',err=100)
       end if
 
 !.... set time-step or CFL
@@ -1837,7 +1837,7 @@ subroutine spectra(n, il, ul, du)
       sum_tek = sum( tek )
       sum_tdk = sum( tdk )
 
-!.... write out to screen the same quantities that Rogollo does
+!.... write out to screen standard quantities 
 
       if (n.eq.1) then
         write(*,"('Step    time      sum_ek      sum_dk    sum_hk    ', &

@@ -1,0 +1,30 @@
+ &IN
+ NX =	        64 
+ NY =	        64  
+ NZ =	        64 
+ LX =           -2.00
+ LY =  		-2.00
+ LZ = 		-2.00
+ SCHEME =       2
+ NSTEP =        1000 
+ NOUT =         20 
+ DT = 	       -1.0 
+ NU = 	        6.277748998986390e-04 
+ DEALIAS =  	1
+ IPRINT =	0
+ ICTYPE =       0
+ SEED =         1234567
+ ISPEC =        2
+ KMAX =         2.0
+ V0 =           27.1893 
+ LES =          0
+ CS =           0.03 
+ STATS =        1
+ /
+ &DYNAMIC
+ average = 2
+ contraction = 1
+ grid_filter = 1
+ filter_type = 0
+ ratio = 0.5
+ /
