@@ -1,5 +1,0 @@
-#summary How to run
-
-= How to run Dyniso =
-
-Need to put content here...
