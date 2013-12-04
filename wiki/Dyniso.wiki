@@ -9,7 +9,7 @@ turbulence.
 == Building Dyniso ==
 
 Assuming a Linux or Darwin (MacOS-X) system with the GCC compilers in your path and a threaded FFTW 2.1.5 available at:  
-{{{$(HOME)/local/fftw-thread}}}
+{{{$(HOME)/local/fftw-omp}}}
 simply do:
 {{{
 cd src
