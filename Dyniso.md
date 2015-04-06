@@ -43,7 +43,7 @@ sudo port select --set gcc none
 
 ## Examples ##
 
-![http://dyniso.googlecode.com/svn/trunk/docs/homo-iso-mag.png](http://dyniso.googlecode.com/svn/trunk/docs/homo-iso-mag.png)
+![https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-mag.png](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-mag.png)
 
 Contours of velocity magnitude from Dyniso on a 384<sup>3</sup> mesh (with dealiasing this is really a 576<sup>3</sup> mesh), computed using 8 threads on an Apple `MacBook` Pro with Intel Corei7 processors.  Visualized using the Plot3d reader in [Paraview](http://www.paraview.org/).
 
