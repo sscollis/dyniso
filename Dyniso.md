@@ -47,6 +47,6 @@ sudo port select --set gcc none
 
 Contours of velocity magnitude from Dyniso on a 384<sup>3</sup> mesh (with dealiasing this is really a 576<sup>3</sup> mesh), computed using 8 threads on an Apple `MacBook` Pro with Intel Corei7 processors.  Visualized using the Plot3d reader in [Paraview](http://www.paraview.org/).
 
-![docs/homo-iso-vort.png](docs/homo-iso-vort.png)
+![https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-vort.png](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-vort.png)
 
 Contours of voriticyt magnitude from Dyniso on a 384<sup>3</sup> mesh (with dealiasing this is really a 576<sup>3</sup> mesh), computed using 8 threads on an Apple `MacBook` Pro with Intel Corei7 processors.  Visualized using the Plot3d reader in [Paraview](http://www.paraview.org/).
