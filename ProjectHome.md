@@ -30,4 +30,4 @@ The primary features of **Dyniso**:
   * Cray FFT libraries
 And it is easy to implement interfaces to other FFT libraries.
 
-For more information, see [Introduction to Dyniso](https://code.google.com/p/dyniso/wiki/Dyniso#Introduction).
+For more information, see [Introduction to Dyniso](https://github.com/sscollis/dyniso/blob/wiki/Dyniso.md).
