@@ -4,9 +4,9 @@
 LOCAL = $(HOME)/local
 
 COMPATH	=
-#CXX	= gxx 
-#CC	= gcc 
-#FC	= gfortran 
+CXX	= g++-9 
+CC	= gcc-9
+FC	= gfortran 
 
 override ADDONS := $(ADDONS)
 
