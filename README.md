@@ -45,3 +45,5 @@ The code will output a number of files including:
      http://www.fftw.org/fftw2_doc/fftw_6.html
   3. Note that FFTW must be build with `--enable-threads and
      --with-openmp`
+
+![Isosurface of vorticity](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-mag.png)
