@@ -52,5 +52,5 @@ The code will output a number of files including:
 ![Isosurface of velocity magnitude](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-mag.png)
 
 
-### Isosurface of Vorticity
+### Isosurface of Vorticity Magnitude
 ![Isosurface of vorticity](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-vort.png)
