@@ -15,10 +15,10 @@ simply do::
   > cd src
   > make opt
 
-Note, if your compilers are not available using generic names you may 
+Note, if your compilers are not available using different names you may 
 need to explicitly tell make where to find them, such as::
 
-  > env CC=gcc-8 FC=gfortran-8 make opt
+  > env CC=gcc-9 FC=gfortran-9 make opt
 
 Dyniso has not been updated yet to work with FFTW3.
 
