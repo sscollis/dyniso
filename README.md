@@ -42,6 +42,6 @@ The code will output a number of files including:
   1. The Plot3d files are in Fortran unformated (not C-binary)
   2. Performance is highly dependant on the FFT library used.
      If using FFTW v2 you should read:  
-     `http://www.fftw.org/fftw2_doc/fftw_6.html`
+     http://www.fftw.org/fftw2_doc/fftw_6.html
   3. Note that FFTW must be build with `--enable-threads and
      --with-openmp`
