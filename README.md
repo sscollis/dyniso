@@ -8,6 +8,8 @@ Dyniso solves the incompressible Navier-Stokes equations in a box
 with the intent of simulating the decay of homogeneous, isotropic 
 turbulence.
 
+For more information see [Dyniso wiki](https://github.com/sscollis/dyniso/wiki).
+
 ## Building Dyniso
 
 Assuming a Linux system with the Intel compilers in your path
