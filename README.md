@@ -41,14 +41,16 @@ The code will output a number of files including:
   1. Time statistics in `stat?.dat`
   2. Spectra at selected timesteps in `spectra.*`
   3. Plot3d visualization files in `out.{xyz,q}`
+  4. Use [Paraview](https://www.paraview.org) to visuzlize Plot3d files
 
 ### Notes:
   1. The Plot3d files are in Fortran unformated (not C-binary)
   2. Performance is highly dependant on the FFT library used.
      If using FFTW v2 you should read:  
-     http://www.fftw.org/fftw2_doc/fftw_6.html
+     [FFTW Documentation](http://www.fftw.org/fftw2_doc/fftw_6.html)
   3. Note that FFTW must be build with `--enable-threads and
      --with-openmp`
+  4. Dyniso does **not** work with FFTW v3, yet...
 
 ### Isosurface of Velocity Magnitude 
 ![Isosurface of velocity magnitude](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-mag.png)
