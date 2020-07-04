@@ -74,7 +74,7 @@ module field
 #if   defined(CRAY)
       integer :: seed
 #elif defined(RANF)
-      integer*4 :: seed
+      integer(4) :: seed
 #else
       integer :: seed
 #endif
@@ -101,8 +101,8 @@ module timemod
       real, external :: second
       real :: cpu0, cpu, cpu2
 #else
-      real*4, external :: second
-      real*4 :: cpu0, cpu, cpu2
+      real(4), external :: second
+      real(4) :: cpu0, cpu, cpu2
 #endif
       integer :: nthreads
 end module timemod
@@ -470,12 +470,12 @@ subroutine turb(ul, fl)
       logical, external :: mask
       real, external :: E0, I_E0_dk, I_E0k2_dk  ! spectrum functions
 #ifdef CRAY
-      real*8, external :: ranf
+      real(8), external :: ranf
 #else
 #ifdef RANF
-      real*8, external :: ranf
+      real(8), external :: ranf
 #else
-      real*8, external :: rand
+      real(8), external :: rand
 #endif
 #endif
       integer :: idum
@@ -2254,7 +2254,7 @@ module ffttmp
       parameter(FFTW_SCRAMBLED_OUTPUT=16384)
 
       ! make sure that the pointer is large enough
-      integer*8 :: fplan(2), bplan(2)
+      integer(8) :: fplan(2), bplan(2)
 end module ffttmp
 
 !> Initialize FFTW for 3d FFT
@@ -2486,15 +2486,15 @@ end subroutine unpad
 subroutine interupt
       use intmod
       implicit none
-      integer*4 :: flag=-1, i
-      integer*4, parameter :: SIGCONT=25, SIGINT=2, SIGKILL=9, SIGTERM=15
+      integer(4) :: flag=-1, i
+      integer(4), parameter :: SIGCONT=25, SIGINT=2, SIGKILL=9, SIGTERM=15
 #if __GNUC__ || __GFORTRAN__
       external :: handler
       intrinsic signal
       halt = .false.
       i = signal( SIGINT,  handler )
 #else
-      integer*4, external :: signal, handler
+      integer(4), external :: signal, handler
       halt = .false.
       i = signal( SIGCONT, handler, flag )
 #endif

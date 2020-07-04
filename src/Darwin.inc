@@ -4,8 +4,8 @@
 LOCAL = $(HOME)/local
 
 COMPATH	=
-CXX	= g++-9 
-CC	= gcc-9
+CXX	= g++-10
+CC	= gcc-10
 FC	= gfortran 
 
 override ADDONS := $(ADDONS)
@@ -56,7 +56,7 @@ MOPTXX = -O3 -m64 $(OPENMP)
 OPT  = $(OPTXX)
 MOPT = $(MOPTXX)
 
-OPTF  = -m64 -O2 -w $(OPENMP) $(DOUBLE) -DRANF -DFFTW $(MCPU)
+OPTF  = -m64 -O2 -std=legacy -w $(OPENMP) $(DOUBLE) -DRANF -DFFTW $(MCPU)
 MOPTF = -m64 -O3 -w $(OPENMP) $(DOUBLE) -DRANF -DFFTW \
         -ftree-vectorize -mtune=core2 -mfpmath=sse -msse -msse2 -msse3 -msse4 \
         -ftree-vectorizer-verbose=1 -ffast-math $(MCPU)
