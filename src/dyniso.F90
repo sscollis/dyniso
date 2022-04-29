@@ -1529,7 +1529,9 @@ subroutine statistics( ul, fl )
           end do
         end do
       end do
-      L = 0.25 * pi / vrms * L
+!.... SSC: fixed the following line which was dimensionally incorrect
+!     L = 0.25 * pi / vrms * L         ! old version fixed on 4/29/22
+      L = 0.25 * pi / (vrms**2) * L
       lambda = sqrt( 15.0 * vrms**2 / lambda )
 
 !.... compute the band averaged energy spectrum every nout time steps
