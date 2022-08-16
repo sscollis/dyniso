@@ -58,3 +58,9 @@ The code will output a number of files including:
 
 ### Isosurface of Vorticity Magnitude
 ![Isosurface of vorticity](https://github.com/sscollis/dyniso/blob/master/docs/homo-iso-vort.png)
+
+## Ponst of Contact
+
+S. Scott Collis\
+flow.physics.simulation@gmail.com
+
